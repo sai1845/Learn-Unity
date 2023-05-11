@@ -361,6 +361,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/playerScript.cs"
+"Assets/Scripts/Player_Collision.cs"
 "Assets/Scripts/rotation.cs"
 -langversion:9.0
 

@@ -9,7 +9,7 @@ public class rotation : MonoBehaviour
 
     void Start()
     {
-        
+        greeting();
     }
 
     
@@ -18,5 +18,12 @@ public class rotation : MonoBehaviour
         
         float yAxis = player_rotation * Time.deltaTime;
         transform.Rotate(0,yAxis,0);
+    }
+
+    void greeting()
+    {
+        Debug.Log("Welcome to the Game world");
+        Debug.Log("Use ASDWD Keys to Move the player");
+        Debug.Log("Don't Hit the walls");
     }
 }
