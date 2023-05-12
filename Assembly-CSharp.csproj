@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player_Collision.cs" />
     <Compile Include="Assets\Scripts\rotation.cs" />
+    <Compile Include="Assets\Scripts\dropper.cs" />
     <Compile Include="Assets\Scripts\playerScript.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -19,8 +19,16 @@ public class Player_Collision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        hitvalue++;
-        GetComponent<MeshRenderer>().material.color = Color.red;
-        Debug.Log("You Hit the wall " + hitvalue + "times");
+        if(collision.gameObject.tag == "Player")
+        {
+            
+            GetComponent<MeshRenderer>().material.color = Color.red;
+            gameObject.tag = "Hit";
+            
+            
+            
+
+        }
+        
     }
 }
