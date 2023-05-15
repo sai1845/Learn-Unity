@@ -364,6 +364,7 @@
 "Assets/Scripts/playerScript.cs"
 "Assets/Scripts/Player_Collision.cs"
 "Assets/Scripts/rotation.cs"
+"Assets/Scripts/Scorrer.cs"
 -langversion:9.0
 
 /deterministic

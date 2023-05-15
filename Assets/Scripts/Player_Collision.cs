@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player_Collision : MonoBehaviour
 {
-    int hitvalue = 0;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,7 @@ public class Player_Collision : MonoBehaviour
             
             GetComponent<MeshRenderer>().material.color = Color.red;
             gameObject.tag = "Hit";
+            
             
             
             
